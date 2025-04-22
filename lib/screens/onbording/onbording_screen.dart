@@ -4,7 +4,7 @@ import 'package:my_store_app/components/dot_indicators.dart';
 import 'package:my_store_app/constants.dart';
 import 'package:my_store_app/route/route_constants.dart';
 
-import 'package:my_store_app/screens/components/onbording_content.dart';
+import 'package:my_store_app/screens/onbording/components/onbording_content.dart';
 
 class OnBordingScreen extends StatefulWidget {
   const OnBordingScreen({super.key});
