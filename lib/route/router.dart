@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_store_app/entry_point.dart';
 import 'package:my_store_app/screens/auth/login_screen.dart';
 import 'package:my_store_app/screens/auth/signup_screen.dart';
 import 'package:my_store_app/route/route_constants.dart';
@@ -20,7 +21,7 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     default:
       return MaterialPageRoute(
         // Make a screen for undefine
-        builder: (context) => const OnBordingScreen(),
+        builder: (context) => const EntryPoint(),
       );
   }
 }
