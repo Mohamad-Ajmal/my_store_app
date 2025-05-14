@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_store_app/auth/login_screen.dart';
-import 'package:my_store_app/auth/signup_screen.dart';
+import 'package:my_store_app/screens/auth/login_screen.dart';
+import 'package:my_store_app/screens/auth/signup_screen.dart';
 import 'package:my_store_app/route/route_constants.dart';
 import 'package:my_store_app/screens/onbording/onbording_screen.dart';
 import 'screen_export.dart';
